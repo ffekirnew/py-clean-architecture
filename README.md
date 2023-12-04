@@ -17,18 +17,13 @@ Upon going through this code, you will be able to:
   - Validate data with the Pydantic package
   - And finally, appreciate types in Python.
 
-## What you need to know / Disclaimer of Technologies used but might not be explicitly explained
+## What you need to know / Technologies used but may not be explicitly explained
 
 ### Poetry
 
 First things first, I am using poetry for managing the packages in this project. I believe poetry makes working with
 and managing python packages easily. Since it's not the topic in discussion and since there's an awesome
 documentation on how to use it, it will not be discussed here today. (For more information, you can check it out at: https://python-poetry.org/)
-
-### Clean Architecture
-
-The clean architecture is one of the most talked about software architectures these days, and rightfully so. In my opinion, for one to truly
-understand the need for the clean architecture, one needs to have suffered with other architecrues.
 
 ### FastAPI
 
@@ -37,7 +32,7 @@ enough so as not to hinder our abilities to learn how the presentation layer of 
 everything we want to do. My favorite FastAPI features include its integration with Pydantic to give us sort of the staticly typed language
 experience and the readily available swagger documentation it provides.
 
-### MongoDB
+### MongoDB (and the pymongo package)
 
 I picked MongoDB for this project because I believe it is one of the most popular NoSQL databases out there. Also, I believe it is
 one of the easiest NoSQL databases to get started with, and its simplicity is something that will help us focus on the architecture
@@ -49,6 +44,24 @@ I am a big fan of types. I believe they make the code more readable and easier t
 unnecessary bugs. And lastly, I believe they help us with refactoring.
 
 ## How the code was written
+
+### Domain Layer
+
+TODO
+
+### Application Layer
+
+TODO
+
+### Persistence Layer
+
+TODO
+
+### Infrastructure Layer
+
+TODO
+
+### Presentation Layer (Web API Layer)
 
 TODO
 
