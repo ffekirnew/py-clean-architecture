@@ -48,6 +48,10 @@ instead of the database.
 I am a big fan of types. I believe they make the code more readable and easier to understand. I also believe they help us avoid
 unnecessary bugs. And lastly, I believe they help us with refactoring.
 
+## How the code was written
+
+TODO
+
 ## How to use this repository
 
 This repository is a template repository. You can use it to create a new repository and start your own project.
@@ -56,11 +60,29 @@ This repository is a template repository. You can use it to create a new reposit
 
 - python 3.8
 - poetry
-- docker
 
 ### Setup
 
 - Clone this repository
-- Create a virtual environment
+
+```bash
+git clone https://github.com/ffekirnew/py-clean-architecture
+```
+
 - Install the packages
-- Start the docker containers
+
+```bash
+poetry install
+```
+
+- Spin poetry's virtual environment
+
+```bash
+poetry shell
+```
+
+- Run the application which will run `webapi/main.py`
+
+```bash
+poetry run uvicorn src.main:app --reload
+```
