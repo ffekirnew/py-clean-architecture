@@ -6,18 +6,20 @@ Because I believe those are the most important parts of this project.
 
 ## Objective
 
-Upon going through this code, you will be able to:
+Upon going through this code, you will understand how to:
 
-- Scaffold a working clean architecture project
-- Understand how to:
-  - Use the dataclasses package
-  - Create interfaces in python (sort of...)
-  - Implement the repository & unit of work patterns
-  - Create & Use generic classes in python
-  - Validate data with the Pydantic package
-  - And finally, appreciate types in Python.
+- Perform dependency injection in python
+- Use the dataclasses package
+- Create interfaces in python (sort of...)
+- Implement the repository & unit of work patterns
+- Create & Use generic classes in python
+- Validate data with the Pydantic package
+- And finally, appreciate types in Python.
 
-## What you need to know / Technologies used but may not be explicitly explained
+## Technologies used but may not be explicitly explained
+
+This are technologies that I have used through out the layers of the project to demonstrate the uses of the clean architecture. I will explain some of the code I
+have written with them but will not provide full details as this is an example and explanation of how I implemented the clean architecture.
 
 ### Poetry
 
@@ -38,10 +40,10 @@ I picked MongoDB for this project because I believe it is one of the most popula
 one of the easiest NoSQL databases to get started with, and its simplicity is something that will help us focus on the architecture
 instead of the database.
 
-### Types
+### Resend
 
-I am a big fan of types. I believe they make the code more readable and easier to understand. I also believe they help us avoid
-unnecessary bugs. And lastly, I believe they help us with refactoring.
+I picked resend as the service to show how third-party services can come into play. Resend is an awesome
+service that allows us to send bulk emails to our recipients. It has an awesome api that allows us to send mails with literally 14 lines of code.
 
 ## How the code was written
 
