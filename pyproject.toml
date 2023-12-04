@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "easysell-backend"
+name = "py-clean-architecture"
 version = "0.1.0"
-description = "Backend for EasySell."
+description = "This is a template repository that implements the clean architecture pattern."
 authors = ["ffekirnew <ffekirnew0808@gmail.com>"]
 license = "MIT"
 readme = "README.md"
