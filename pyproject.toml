@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "easysell-backend"
+version = "0.1.0"
+description = "Backend for EasySell."
+authors = ["ffekirnew <ffekirnew0808@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+bson = "^0.5.10"
+pymongo = "^4.5.0"
+python-dotenv = "^1.0.0"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+autoflake = "^2.2.1"
+isort = "^5.12.0"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ["py37"]
+
+[tool.coverage.run]
+source_pkgs = ['src']
+
+[tool.coverage.html]
+title = "Coverage"
